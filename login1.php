@@ -145,7 +145,7 @@ if (array_key_exists('lo', $_POST)) {
             <nav>
                 <ul id='MenuItems'>
                     <li><a href='index.php'>HOME</a></li>
-                    <li><a href='about.html'>ABOUT US</a></li>
+                    <li><a href='about.php'>ABOUT US</a></li>
                     <li><a href='search.php'>SHOPPING</a></li>
                     <li><button class='loginbtn' onclick="document.getElementById('login-           form').style.display='block'" style="width:auto;">LOGIN</button></li>
                 </ul>

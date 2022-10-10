@@ -62,7 +62,7 @@ function header1() {
             </a>
           </div>
 
-          <a class=\"nav__menu__item\" href=\"about.html\">
+          <a class=\"nav__menu__item\" href=\"about.php\">
             <div class=\"nav__menu__item co-l ai-c\">
               <div class=\"nav__menu__item-icon mr-2\">
                 <i class=\"fas fa-record-vinyl\"></i>
