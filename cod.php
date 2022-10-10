@@ -22,6 +22,9 @@ if(!isset($_COOKIE['username_mini2'])) {
   <title>cod</title>
 </head>
 <body>
-  <?php  echo"<h1>thank you ".$_COOKIE['username_mini2']."</h1>";    ?>
+  <?php  
+   echo "<script type='text/javascript'>alert('Thank you {$_COOKIE['username_mini2']}');</script>";
+   unset($_SESSION['cart']);
+   echo "<script>window.location = 'index.php'</script>";?>
 </body>
 </html>
