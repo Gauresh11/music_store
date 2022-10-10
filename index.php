@@ -38,7 +38,7 @@ if (isset($_POST['add'])) {
 
             );
             $_SESSION['cart'][$count] = $item_array;
-           print_r($_SESSION['cart']);
+           //print_r($_SESSION['cart']);
         }
     } else {
 
