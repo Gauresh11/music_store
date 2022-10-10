@@ -10,7 +10,13 @@ if(!isset($_COOKIE['username_mini2'])) {
    echo "<script>window.location = 'login1.php'</script>";
    //header("location: login11.php");
     // echo "Cookie named 'username_mini2' is not set!";
-  } 
+  }
+else{
+ 
+  echo "<script type='text/javascript'>alert('Thank you {$_COOKIE['username_mini2']}');</script>";
+  unset($_SESSION['cart']);
+  echo "<script>window.location = 'index.php'</script>";
+} 
   
 ?>
 <!DOCTYPE html>
@@ -22,9 +28,6 @@ if(!isset($_COOKIE['username_mini2'])) {
   <title>cod</title>
 </head>
 <body>
-  <?php  
-   echo "<script type='text/javascript'>alert('Thank you {$_COOKIE['username_mini2']}');</script>";
-   unset($_SESSION['cart']);
-   echo "<script>window.location = 'index.php'</script>";?>
+ 
 </body>
 </html>
